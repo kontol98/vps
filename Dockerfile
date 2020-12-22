@@ -1,4 +1,4 @@
-FROM alfianandaa/alf:groovy
+FROM debian:stretch
 
 # Install git, supervisor, VNC, & X11 packages
 RUN set -ex; \
